@@ -26,11 +26,9 @@ class TestPalindrome:
         assert firt_sentence == "itsapalindrome"
         assert second_sentence == "itsapalindrome"
         assert (
-            second_sentence == "itsabeautifuldayoutsidebirdsaresingingflowersarebloomingitsaperfecttimeforapicnicinthepark"
+            third_sentence == "itsabeautifuldayoutsidebirdsaresingingflowersarebloomingitsaperfecttimeforapicnicinthepark"
         )
-        for sentce in [firt_sentence, second_sentence, third_sentence]:
-            with open("output/normalize_english.txt", "w") as file:
-                file.write(sentce)
+
 
     def test_is_palindrome_engish(self):
 

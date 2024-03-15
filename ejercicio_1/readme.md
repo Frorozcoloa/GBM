@@ -25,6 +25,5 @@ Nota: Las pruebas unitarias fueron creadas para correr con pytest. Hay varios m�
 
 * Para correr el código necesita hacer lo siguiente.
 * Estar en la carpeta raiz.
-
 * correr el siguiente comando `python ejercicio_1/palindrome.py`
-* Acto seguido el programa le pedirá que ingresé la palabra y retornará dos cosas "It is a palindrome" o "It is not a palindrome"
+* Acto seguido el programa le pedirá que ingresé la palabra y retornará dos casos "It is a palindrome" o "It is not a palindrome"
