@@ -3,9 +3,6 @@
 ## Estructura del proyecto.
 
 ```
-
-```
-
 └── 📁ejercicio_1
     └── 📁output
         └── is_palindrome_english
@@ -19,8 +16,6 @@
     └── problema.txt
     └── readme.md
     └── test_palindrome.py
-
-```
 
 ```
 
