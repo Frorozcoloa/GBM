@@ -20,9 +20,6 @@
     └── test_palindrome.py
 ```
 
-
-
-
 Nota: Las pruebas unitarias fueron creadas para correr con pytest. Hay varios métodos que tienen diferentes verificaciones, es por eso que se creó  la carpeta output, donde cada archivo .txt es el resultado de las pruebas unitarias.
 
 ## Correr el código
