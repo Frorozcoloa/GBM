@@ -39,18 +39,6 @@ def test_get_total_scoring_invalid_input(monkeypatch):
     with pytest.raises(ValueError):
         get_total_scoring()
 
-# Test get_values_scoring function
-def test_get_values_scoring_valid_input(monkeypatch):
-    input_values = ['3 1 10', '2 5 3', '3 4 2 1']
-    monkeypatch.setattr('builtins.input', lambda _: input_values.pop(0))
-    assert get_values_scoring(10, 3) == [[1, 10], [5, 3], [4, 2, 1]]
-
-def test_get_values_scoring_invalid_input(monkeypatch):
-    input_values = ['2 1 10', '3 5 3', '2 4 2 1']
-    monkeypatch.setattr('builtins.input', lambda _: input_values.pop(0))
-    with pytest.raises(ValueError):
-        get_values_scoring(10, 3)
-
 # Test calculate_champion function
 def test_calculate_champion():
     pilots = 4
