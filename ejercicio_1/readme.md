@@ -3,6 +3,7 @@
 ## Estructura del proyecto.
 
 ```
+
 └── 📁ejercicio_1
     └── 📁output
         └── is_palindrome_english
@@ -12,12 +13,15 @@
         └── not_palindrome_english
         └── not_palindrome_spanish
         └── palindrome_in_french.txt
+    └── output.txt
     └── palindrome.py
     └── problema.txt
     └── readme.md
     └── test_palindrome.py
-
 ```
+
+
+
 
 Nota: Las pruebas unitarias fueron creadas para correr con pytest. Hay varios métodos que tienen diferentes verificaciones, es por eso que se creó  la carpeta output, donde cada archivo .txt es el resultado de las pruebas unitarias.
 

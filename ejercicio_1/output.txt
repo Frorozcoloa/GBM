@@ -1,0 +1,8 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.1.1, pluggy-1.4.0
+rootdir: /home/freorozcoloa/Desktop/frorozcol/prueba-tecnica-GBM
+collected 7 items
+
+ejercicio_1/test_palindrome.py .......                                   [100%]
+
+============================== 7 passed in 0.02s ===============================
