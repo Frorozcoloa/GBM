@@ -2,29 +2,7 @@
 
 ## Estructura del proyecto.
 
-`└── 📁ejercicio_4
-    └── data_customer_classification 1.xlsx
-    └── feature_engeenier.py
-    └── 📁image
-        └── 📁readme
-            └── 1710647532614.png
-    └── 📁output
-        └── test_create_target.txt
-        └── test_dropdataset.txt
-        └── test_pretransform_peridoc.txt
-        └── test_q25.txt
-        └── test_q50.txt
-        └── test_q75.txt
-        └── test_transform_date.txt
-        └── test_transform_peridic.txt
-        └── test_transform_tran_amount.txt
-    └── output.txt
-    └── problema.txt
-    └── readme.md
-    └── test_feature_engeenier.py
-    └── train.py`
-
-
+`└── 📁ejercicio_4     └── data_customer_classification 1.xlsx     └── feature_engeenier.py     └── 📁image         └── 📁readme             └── 1710647532614.png     └── 📁output         └── test_create_target.txt         └── test_dropdataset.txt         └── test_pretransform_peridoc.txt         └── test_q25.txt         └── test_q50.txt         └── test_q75.txt         └── test_transform_date.txt         └── test_transform_peridic.txt         └── test_transform_tran_amount.txt     └── output.txt     └── problema.txt     └── readme.md     └── test_feature_engeenier.py     └── train.py`
 
 Nota: Las pruebas unitarias fueron creadas para correr con pytest. Hay varios métodos que tienen diferentes verificaciones, es por eso que se creó  la carpeta output, donde cada archivo .txt es el resultado de las pruebas unitarias.
 
@@ -101,6 +79,12 @@ En resumen, el código carga un conjunto de datos previamente procesado, constru
 ## Correr el código online
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Frorozcoloa/GBM)
+
+## Correr en docker
+
+1. Entramos a la carpeta `cd ejercio_4`
+2. creamos la imagen `docker build -t train:_image .  `
+3. Ejecutamos la imagen y abrimos la consola `docker run -it --name train_container train_image bash`
 
 ## Correr el código
 

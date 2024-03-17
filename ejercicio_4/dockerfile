@@ -1,0 +1,17 @@
+# Use an official Python runtime as a parent image
+FROM python:3.10-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Install pytest
+RUN pip install --no-cache-dir pytest
+# install requierements
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+# Copy the palindrome.py file into the container
+COPY . .
+
+# Define the command to run the palindrome.py file using pytest
+CMD ["python", "train.py"]
