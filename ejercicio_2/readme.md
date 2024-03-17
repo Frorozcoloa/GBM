@@ -27,6 +27,4 @@ Nota: Las pruebas unitarias fueron creadas para correr con pytest. Hay varios m�
 2. Estar en la carpeta raiz.
 3. correr el siguiente comando `python  ejercicio_2/main.py `
 4. Acto seguido El programa pedirá el total los números de grands y total de piloto, la información de llegada para cada grand, luego pedirá cuantos sistemas de scorings quieres probar y posteriormente le pedirá uno por uno. Recurda que el programa fianliza cuando se ingresé o cero  en pilotos o cero grands
-
-   En la siguiente imagen se muestra un ejemplo del código
-   ![1710608493980](image/readme/1710608493980.png)
+4.

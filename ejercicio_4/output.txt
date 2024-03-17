@@ -1,0 +1,8 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.1.1, pluggy-1.4.0
+rootdir: /home/freorozcoloa/Desktop/frorozcol/prueba-tecnica-GBM
+collected 9 items
+
+ejercicio_4/test_feature_engeenier.py .........                          [100%]
+
+============================== 9 passed in 0.23s ===============================
