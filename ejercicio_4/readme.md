@@ -2,16 +2,27 @@
 
 ## Estructura del proyecto.
 
-```
-└── 📁ejercicio_4
+`└── 📁ejercicio_4
     └── data_customer_classification 1.xlsx
     └── feature_engeenier.py
+    └── 📁image
+        └── 📁readme
+            └── 1710647532614.png
+    └── 📁output
+        └── test_create_target.txt
+        └── test_dropdataset.txt
+        └── test_pretransform_peridoc.txt
+        └── test_q25.txt
+        └── test_q50.txt
+        └── test_q75.txt
+        └── test_transform_date.txt
+        └── test_transform_peridic.txt
+        └── test_transform_tran_amount.txt
     └── output.txt
     └── problema.txt
     └── readme.md
     └── test_feature_engeenier.py
-    └── train.py
-```
+    └── train.py`
 
 
 
