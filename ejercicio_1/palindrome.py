@@ -1,4 +1,4 @@
-"""src.ejercicio_1.palindrome"""
+"""ejercicio_1.palindrome"""
 
 import unicodedata
 import re
