@@ -106,7 +106,7 @@ En resumen, el código carga un conjunto de datos previamente procesado, constru
 
 1. Para correr el código necesita hacer lo siguiente.
 2. Estar en la carpeta raiz.
-3. crear un virtual env e instalar los requirements.txt `pip install requirements.txt`
+3. crear un virtual env e instalar los requirements.txt `pip install ejercicio_4/`/requirements.txt`
 4. Rectifica que el dataset se encuentre en ejercicio_4 y ejecutar `python ejercicio_4/train.py   `
 5. Al final debe imprimirse las metricas de testeo, como en la siguiente imagen
 
