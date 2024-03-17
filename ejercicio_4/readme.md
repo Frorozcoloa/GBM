@@ -98,6 +98,10 @@ Esta es la función principal que coordina todas las operaciones. Llama a las fu
 
 En resumen, el código carga un conjunto de datos previamente procesado, construye una red neuronal, la entrena y luego evalúa su rendimiento utilizando métricas de clasificación.
 
+## Correr el código online
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Frorozcoloa/GBM)
+
 ## Correr el código
 
 1. Para correr el código necesita hacer lo siguiente.

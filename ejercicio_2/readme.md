@@ -21,10 +21,14 @@
 
 Nota: Las pruebas unitarias fueron creadas para correr con pytest. Hay varios métodos que tienen diferentes verificaciones, es por eso que se creó  la carpeta output, donde cada archivo .txt es el resultado de las pruebas unitarias.
 
+## Correr el código online
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Frorozcoloa/GBM)
+
 ## Correr el código
 
 1. Para correr el código necesita hacer lo siguiente.
 2. Estar en la carpeta raiz.
 3. correr el siguiente comando `python  ejercicio_2/main.py `
 4. Acto seguido El programa pedirá el total los números de grands y total de piloto, la información de llegada para cada grand, luego pedirá cuantos sistemas de scorings quieres probar y posteriormente le pedirá uno por uno. Recurda que el programa fianliza cuando se ingresé o cero  en pilotos o cero grands
-4.
+5.
